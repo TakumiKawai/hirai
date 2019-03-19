@@ -1,0 +1,167 @@
+header {
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: black;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.header-left {
+	display: flex;
+	align-items: center;
+	color: yellow;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.header-left img {
+	border-radius: 50%;
+	margin-right: 30px;
+	height: 60px;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+}
+
+.header-right a {
+	/*padding: 30px;*/
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+	/*margin-left: 150px;*/
+	/*align-items: 30px;*/
+}
+
+.fa {
+ 	margin-right: 5px;
+}
+
+.fab {
+ 	margin-right: 5px;
+}
+
+.facebook {
+	background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+	background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 2em;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.myimage {
+	background: url(../img/hirai3.jpg);
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-between;
+	padding-top: 70px;
+	/*margin-left: 10%;
+	margin-right: 10%;
+	*/
+}
+
+.myimage h1 {
+	color: orange;
+	font-size: 150px;
+	opacity: 0.5;
+	text-shadow: 0 0 20px #fefcc9;
+	margin-left: 100px;
+	/*align-items: center;*/
+}
+
+.gyarally {
+	padding: 50px;
+}
+
+.gyarally .list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.gyarally .list li {
+	width: 30%;
+	overflow: hidden;
+}
+
+.gyarally img {
+	border: 100px;
+	height: 250px;
+}
+  
+.list p {
+	font-family: fantasy;
+}
+
+h3 {
+	align-items: center;
+	margin-left: 50px;
+	font-family: fantasy; 
+	font-size: 20px;
+}
+
+footer {
+	background-color: white;
+	padding-bottom: 10px;
+}
+
+footer p {
+	align-items: center;
+	margin-left: 550px;
+}
+
+.me {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+	align-items: center;
+}
+
+.me-left{
+	display: flex;
+	align-items: center;
+}
+
+.me-left img {
+	margin-right: 30px;
+	border-radius: 50%;
+	height: 60px;
+
+}
+
+.me-right a {
+	text-decoration: none;
+} 
+
+
+
+
+
+
