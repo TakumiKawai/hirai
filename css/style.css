@@ -77,13 +77,8 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	justify-content: space-between;
-	padding-top: 70px;
-	/*margin-left: 10%;
-	margin-right: 10%;
-	*/
+	align-items: center;
 }
 
 .myimage h1 {
@@ -91,7 +86,6 @@ header {
 	font-size: 150px;
 	opacity: 0.5;
 	text-shadow: 0 0 20px #fefcc9;
-	margin-left: 100px;
 	/*align-items: center;*/
 }
 
